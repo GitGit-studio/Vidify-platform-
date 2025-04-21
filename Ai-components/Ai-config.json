@@ -1,0 +1,66 @@
+json
+{
+  "aiServices": {
+    "contentGeneration": {
+      "modelType": "gpt-based",
+      "endpoint": "https://api.vidify.ai/generate",
+      "capabilities": [
+        "ideaGeneration",
+        "scriptWriting",
+        "titleOptimization",
+        "descriptionCreation"
+      ],
+      "configurationOptions": {
+        "creativity": 0.7,
+        "length": "medium",
+        "style": "engaging"
+      }
+    },
+    "videoAnalysis": {
+      "modelType": "vision-based",
+      "endpoint": "https://api.vidify.ai/analyze",
+      "capabilities": [
+        "thumbnailGeneration",
+        "contentModeration",
+        "highlightDetection",
+        "categoryPrediction"
+      ],
+      "configurationOptions": {
+        "detectionThreshold": 0.6,
+        "moderationLevel": "standard"
+      }
+    },
+    "audienceInsights": {
+      "modelType": "analytics-based",
+      "endpoint": "https://api.vidify.ai/insights",
+      "capabilities": [
+        "audienceSegmentation",
+        "engagementPrediction",
+        "trendDetection",
+        "performanceOptimization"
+      ],
+      "configurationOptions": {
+        "dataWindow": "30days",
+        "confidenceThreshold": 0.8
+      }
+    }
+  },
+  "enterpriseFeatures": {
+    "customTraining": true,
+    "industryTemplates": {
+      "education": true,
+      "corporate": true,
+      "entertainment": true
+    },
+    "contentSafety": {
+      "childrenContentFilters": true,
+      "brandSafetyChecks": true
+    }
+  },
+  "creatorFeatures": {
+    "platformOptimization": true,
+    "trendingSuggestions": true,
+    "thumbnailABTesting": true,
+    "audienceGrowthTools": true
+  }
+}
